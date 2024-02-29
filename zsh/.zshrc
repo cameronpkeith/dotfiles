@@ -104,6 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Environment variables
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Key bindings
 bindkey -s ^f ".local/scripts/tmux-sessionizer\n"
