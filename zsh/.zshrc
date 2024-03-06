@@ -13,8 +13,9 @@ ZSH_THEME="" #robbyrussell"
 # starship init script# starship init script# starship init script
 eval "$(starship init zsh)"
 
-# Alias python to python3
+# Aliases
 alias python=python3
+alias gs="git status"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
