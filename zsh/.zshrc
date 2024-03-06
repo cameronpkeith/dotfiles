@@ -10,9 +10,11 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="" #robbyrussell"
 
-# ~/.zshrc
+# starship init script# starship init script# starship init script
 eval "$(starship init zsh)"
 
+# Alias python to python3
+alias python=python3
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,3 +111,5 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # Key bindings
 bindkey -s ^f ".local/scripts/tmux-sessionizer\n"
+
+
