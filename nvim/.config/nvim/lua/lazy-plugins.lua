@@ -15,7 +15,6 @@ require('lazy').setup {
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   -- Git related plugins
-  'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
 
   -- Detect tabstop and shiftwidth automatically
@@ -49,6 +48,7 @@ require('lazy').setup {
   require 'kickstart/plugins/mini',
   require 'kickstart/plugins/treesitter',
   require 'kickstart/plugins/undotree',
+  require 'kickstart/plugins/fugitive',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
